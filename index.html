@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css"/>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header class="large-12 columns">
+			<h3 class='app-name'><i class="fa fa-map-o"></i> Scout App</h3>
+			<div class='group-select-button main'></div>
+		</header>
+
+		<div class="login large-12 columns">
+			<p><a href="https://oauth.groupme.com/oauth/authorize?client_id=f6pNMHd4STZwcClOcnJzR1JPwlLFPnELyobtTSFSY8sVjJH7">Login</a> to analyze your groups, likes, messages, and more!</p>
+		</div>
+
+		
+		<ul class='group-select-list select'>
+		</ul>
+
+		<div class='group-data main'>
+			<div id="likes-received-chart" class="chart" style="height: 300px; width: 90%;"></div>
+			<div id="day-frequency-chart" class="chart" style="height: 300px; width: 90%;"></div>	
+			<div id="total-messages-chart" class="chart" style="height: 300px; width: 90%;"></div>
+			<div id="conversations-started-chart" class="chart" style="height: 300px; width: 90%;"></div>
+			<div id="message-length-chart" class="chart" style="height: 300px; width: 90%;"></div>
+			<div id="likes-per-message-chart" class="chart" style="height: 300px; width: 90%;"></div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="canvasjs/canvasjs.min.js"></script>
+	    <script src="scout.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
